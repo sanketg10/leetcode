@@ -1,4 +1,5 @@
 class Solution(object):
+
     def reverseString(self, s):
         """
         :type s: str
@@ -7,18 +8,18 @@ class Solution(object):
 
         ## Solution 1  ##
         return s[::-1]
-        
+
         ## Solution 2   ##
-        # return "".join(reversed(s)) 
+        # return "".join(reversed(s))
 
         #######################
         ####Test bench#########
-        ####################### 
-        
+        #######################
+
         # string_rev = ''
-        # l = len(s) 
+        # l = len(s)
 
-        # for i in range (l): 
-        #     string_rev = string_rev + s[l-i-1] 
+        # for i in range (l):
+        #     string_rev = string_rev + s[l-i-1]
 
-        # return string_rev   
+        # return string_rev
